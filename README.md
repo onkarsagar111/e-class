@@ -1,43 +1,10 @@
-# E-CLASS (Microsoft Engage'21)
+# E-CLASS
 
 ## Problem Statement
 
  Build a functional prototype of a platform that gives students an array of digital academic and social tools to stay engaged with their studies, peers and broader university community during pandemic.
 
-### Agile Methodology and Approach to Build the Project
-I have followed Agile Scrum Methodology to build this project.
-Agile Scrum Methodology is a project management method that is best used to improve the project in every iteration. Each iteration has sprints, where the goal in each sprint is to build the most important feature first and then improve the project as a potentially deliverable product.
 
-Microsoft has provided us with sprints: Learn, Design, Build, Submit. 
-I also used a scrum board on trello to track my progress during ongoing sprints.
-
-I divided my project in three sprints of one week each. They are:
-
-### Sprint 1
-* Idea Brainstorming and finalization, R&D on the selected idea.
-* Project setup with React(frontend), Node.j-Express(backend), and Firebase(database).
-* Landing Page, Home Page and basic styling.
-* SignUp, SignIn and Otp modals.
-
-### Sprint 2
-* Join and create classes.
-* Modals for actions(Error, Information, Success).
-* Unique class code generator while making a class for joining a class as a student.
-* Dynamic Class cards after creating and joining a class.
-* Class View - Dashboard, Scheduler, People ,and Request/Register.
-* Scheduler - Calendar, class schedule, updating, and deletion by the teacher.
-* Nodemailer functionality for sending emails while signing Up, scheduling classes, and updates.
-
-
-### Sprint 3
-* Class Dashboard
-* Announcements section and make a query section.
-* Color codes for chat section in dashboard for teacher and students.
-* Register for an offline lecture seat in joined class.
-* Student’s request verification, approval and decline by teacher.
-* Unregister from an offline lecture.
-* Mail notifications for seat availability, Request approval and Request Decline.
-##
 ## Getting Started
 
 This project is made using React, Node and Express. Kindly follow the below mentioned instructions to run it on your machine.
