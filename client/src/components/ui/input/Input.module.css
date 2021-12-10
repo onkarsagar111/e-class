@@ -1,0 +1,28 @@
+.Input{
+    height: 32px;
+    outline: none;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+    font-size: 14px;
+    margin: 8px;
+    width: 200px;
+    padding: 6px;
+    font-family: inherit;
+}
+
+.Textarea{
+    outline: none;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+    font-size: 18px;
+    margin: 8px;
+    padding: 6px;
+    resize: none;
+    font-family: inherit;
+}
+
+.Invalid{
+    border: 2px solid red;
+}

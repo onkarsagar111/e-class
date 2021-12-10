@@ -1,0 +1,34 @@
+.People{
+    width: 70%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.People::-webkit-scrollbar {
+    display: none;
+}
+
+.Row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding: 16px;
+    font-weight: 500;
+    color: #515151;
+    
+
+}
+
+.Heading{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #185473;
+    border-radius: 12px;
+    color: white;
+}

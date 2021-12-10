@@ -1,0 +1,28 @@
+.OtpModal{
+    position: fixed;
+    width: 25%;
+    z-index: 50;
+    background-color: #e4e4e4;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
+    height: 30%;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.ErrorLabel{
+    color: red;
+    font-size: 12px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.InputContainer{
+    display: flex;
+    flex-direction: column;
+}

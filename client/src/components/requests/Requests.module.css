@@ -1,0 +1,64 @@
+.Requests {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid;
+  height: 10%;
+  font-size: 20px;
+  font-weight: 600;
+
+  /* padding: 18px; */
+}
+
+.Row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    /* padding: 18px; */
+    justify-content: flex-start;
+    height: 90%;
+    overflow: auto;
+}
+
+.ButtonContainer {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.col1{
+    width: 30%;
+    margin-left: 30px;
+}
+.col2{
+    width: 30%;
+    margin-left: -24px;
+}
+.col3{
+    width: 40%;
+    text-align: center;
+}
+.Label{
+    font-weight: 400;
+    font-size: 20px;
+    color: #515151;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}

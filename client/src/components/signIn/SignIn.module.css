@@ -1,0 +1,65 @@
+.Wrapper {
+    position: fixed;
+    left: -100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+
+}
+
+.SignInModal{
+    height: 500px;
+    width: 30%;
+    background-color: #f3f3f3;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
+}
+
+.Image{
+    height: 650px;
+    width: 600px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Visible{
+    left: 50%;
+    transition: ease-in all 0.3s;
+}
+
+.ErrorLabel{
+    color: red;
+    font-size: 12px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.InputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Label{
+    position: relative;
+    top: 6px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.SignUp{
+    color: #185473;
+    cursor: pointer;
+}
+
+.SignUp:hover{
+    text-decoration: underline;
+}

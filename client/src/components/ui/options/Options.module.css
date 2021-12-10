@@ -1,0 +1,27 @@
+.Options {
+    background-color: #fff;
+    min-width: 150px;
+    position: absolute;
+    z-index: 200;
+    margin-top: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
+}
+
+.Option{
+    
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Option:hover{
+    background-color: #f3f3f3;
+}
